@@ -1,10 +1,8 @@
 package com.zdk.mapper;
 
-import com.zdk.dto.AddUserMeta;
 import com.zdk.dto.AdminMeta;
 import com.zdk.dto.EditMeta;
 import com.zdk.pojo.AdminAndUser;
-import com.zdk.pojo.EnterpriseUser;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
