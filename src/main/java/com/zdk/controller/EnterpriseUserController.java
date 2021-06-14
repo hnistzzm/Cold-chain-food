@@ -11,6 +11,7 @@ import com.zdk.service.enterprise.EnterpriseServiceImpl;
 import com.zdk.utils.*;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -28,6 +29,7 @@ import java.util.List;
  * @Date 2021/4/20 16:04
  * BeanUtils.copyProperties(, );
  */
+@Slf4j
 @Api(tags = "企业用户api")
 @RestController
 public class EnterpriseUserController {
@@ -46,7 +48,7 @@ public class EnterpriseUserController {
     @CrossOrigin
     public Object login(String id, String password, String email, HttpServletRequest request){
         EnterpriseUser enterpriseUser= enterpriseService.enterpriseLogin(id, null,email);
-        System.out.println("enterpriseUser"+enterpriseUser);
+        log.info("enterpriseUser"+enterpriseUser);
         return judgeLoginUtil.judgeLogin(enterpriseUser, id, password, request);
     }
 
