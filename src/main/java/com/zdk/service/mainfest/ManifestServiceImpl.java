@@ -1,6 +1,5 @@
 package com.zdk.service.mainfest;
 
-import com.sun.mail.imap.protocol.ID;
 import com.zdk.dto.SelectFoodMeta;
 import com.zdk.mapper.ManifestMapper;
 import com.zdk.pojo.Manifest;

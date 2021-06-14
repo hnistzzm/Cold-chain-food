@@ -1,7 +1,6 @@
 package com.zdk.utils;
 
 import com.zdk.dto.Meta;
-import com.zdk.pojo.AdminAndUser;
 
 import java.util.HashMap;
 

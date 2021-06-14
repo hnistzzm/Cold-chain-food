@@ -1,7 +1,6 @@
 package com.zdk.service.right;
 
 import com.zdk.pojo.Right;
-import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 import java.util.Map;

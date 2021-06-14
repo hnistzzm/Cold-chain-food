@@ -7,11 +7,7 @@ import com.zdk.dto.EnterpriseMeta;
 import com.zdk.dto.Meta;
 import com.zdk.interceptor.RightInfo;
 import com.zdk.pojo.EnterpriseUser;
-import com.zdk.pojo.Right;
-import com.zdk.pojo.Role;
 import com.zdk.service.enterprise.EnterpriseServiceImpl;
-import com.zdk.service.right.RightService;
-import com.zdk.service.role.RoleServiceImpl;
 import com.zdk.utils.*;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -21,10 +17,8 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.lang.Nullable;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
-import sun.util.resources.es.CurrencyNames_es_UY;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 

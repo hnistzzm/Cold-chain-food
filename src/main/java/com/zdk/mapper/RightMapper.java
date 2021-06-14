@@ -2,7 +2,6 @@ package com.zdk.mapper;
 
 import com.zdk.pojo.Right;
 import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

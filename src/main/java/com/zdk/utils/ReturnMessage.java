@@ -26,7 +26,7 @@ public class ReturnMessage {
      */
     public static final String ISLOCKED="520";
     /**
-     * 禁止访问
+     * status
      */
     public static final String STATUS="status";
     /**

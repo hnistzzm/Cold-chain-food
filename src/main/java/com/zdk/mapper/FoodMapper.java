@@ -2,7 +2,6 @@ package com.zdk.mapper;
 
 import com.zdk.pojo.Food;
 import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

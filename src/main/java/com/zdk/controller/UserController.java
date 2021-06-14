@@ -7,10 +7,6 @@ import com.zdk.dto.EditMeta;
 import com.zdk.dto.Meta;
 import com.zdk.interceptor.RightInfo;
 import com.zdk.pojo.AdminAndUser;
-import com.zdk.pojo.Right;
-import com.zdk.pojo.Role;
-import com.zdk.service.right.RightService;
-import com.zdk.service.role.RoleServiceImpl;
 import com.zdk.service.user.UserService;
 import com.zdk.utils.*;
 import io.swagger.annotations.Api;
@@ -23,7 +19,6 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
