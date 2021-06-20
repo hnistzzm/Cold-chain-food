@@ -13,7 +13,7 @@ export default {
 <style Lang="less" scoped>
 .bg{
   height: 100%;
-  background: url("../../assets/bg6.jpg");
+  background: url("../../assets/bg7.jpg");
   background-size:100% 100% ;
 
   text-align: center;
