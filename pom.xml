@@ -169,6 +169,13 @@
             <version>1.11</version>
         </dependency>
 
+<!--        引入hutool-->
+        <!-- https://mvnrepository.com/artifact/cn.hutool/hutool-all -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.7.2</version>
+        </dependency>
 
     </dependencies>
 
