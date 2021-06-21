@@ -1,5 +1,24 @@
 <template>
   <div class="register_container" >
+    <vue-particles
+      color="#fff"
+      :particleOpacity="0.7"
+      :particlesNumber="60"
+      shapeType="polygon"
+      :particleSize="4"
+      linesColor="#fff"
+      :linesWidth="1"
+      :lineLinked="true"
+      :lineOpacity="0.3"
+      :linesDistance="180"
+      :moveSpeed="2"
+      :hoverEffect="true"
+      hoverMode="repulse"
+      :clickEffect="true"
+      clickMode="repulse"
+      class="lizi"
+    >
+    </vue-particles>
     <div class="login_button">
       <el-button class="login" @click="login_request">登录</el-button>
     </div>
@@ -231,7 +250,7 @@ export  default {
   display: flex;
   left: 50%;
   top: 50%;
-  transform: translate(90%,50%);
+  transform: translate(90%,-1350%);
 
 }
 .radio{
