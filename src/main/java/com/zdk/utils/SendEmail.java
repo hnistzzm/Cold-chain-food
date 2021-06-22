@@ -23,9 +23,9 @@ public class SendEmail {
             props.put("mail.smtp.host", "smtp.qq.com");
             props.put("mail.smtp.port", "587");
             // 此处填写你的账号
-            props.put("mail.user", "369365576@qq.com");
+            props.put("mail.user", "2961174102@qq.com");
             // 此处的密码就是前面说的16位STMP口令
-            props.put("mail.password", "rkhdtqhavscpbggh");
+            props.put("mail.password", "hunsfvbifowadeag");
             //创建电子邮件对象
             // 构建授权信息，用于进行SMTP进行身份验证
             Authenticator authenticator = new Authenticator() {
