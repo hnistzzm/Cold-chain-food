@@ -214,7 +214,7 @@ html,body{
   align-items: center;
   //////justify-content: space-between;
   //////transform: translate(90%, -1350%);
-  position: fixed;
+  position: absolute;
   top: 50px;
   right: 80px;
 }

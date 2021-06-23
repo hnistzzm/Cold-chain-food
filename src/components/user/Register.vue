@@ -256,7 +256,7 @@ export  default {
   //left: 1300px;
   //align-items: center;
   //position: relative;
-  position: fixed;
+  position: absolute;
   top: 50px;
   right: 80px;
 
