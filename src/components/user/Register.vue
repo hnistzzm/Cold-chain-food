@@ -247,10 +247,18 @@ export  default {
 
 }
 .login_button{
-  display: flex;
-  left: 50%;
-  top: 50%;
-  transform: translate(90%,-1350%);
+  //display: flex;
+  //left: 50%;
+  //top: 50%;
+  //transform: translate(90%,-1350%);
+  //position: relative;
+  //top: -700px;
+  //left: 1300px;
+  //align-items: center;
+  //position: relative;
+  position: fixed;
+  top: 50px;
+  right: 80px;
 
 }
 .radio{

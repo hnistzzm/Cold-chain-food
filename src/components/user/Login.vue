@@ -18,6 +18,7 @@
       clickMode="remove"
     >
     </vue-particles>
+
     <div class="Register_button">
       <el-button class="register" @click="register_request">注册</el-button>
     </div>
@@ -139,13 +140,19 @@ export default {
 
 
 <style Lang="less" scoped>
+html,body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 .login_container {
-
+  //border: 1px solid red;
   height: 100%;
   width:100%;
   //background-color: #0093E9;
   background: url("../../assets/bg8.jpg");
   background-size:100% 100% ;
+  padding: 0;
 }
 
 .login_box {
@@ -196,10 +203,20 @@ export default {
 }
 
 .Register_button {
-  display: flex;
+  //width: 100%;
+  ////border: 1px solid red;
+  //height: 1300px;
+  //position: absolute;
+  //top: 100%;
+  ////left: 100%;
+  //transform: translate(0%,-52%);
+  //////display: flex;
   align-items: center;
-  justify-content: space-between;
-  transform: translate(90%, -1350%);
+  //////justify-content: space-between;
+  //////transform: translate(90%, -1350%);
+  position: fixed;
+  top: 50px;
+  right: 80px;
 }
 
 .radio {
@@ -208,6 +225,8 @@ export default {
 
 .register {background-image: linear-gradient(to right, #70e1f5 0%, #ffd194  51%, #70e1f5  100%)}
 .register {
+
+  float: right;
   margin: 10px;
   padding: 15px 45px;
   text-align: center;
